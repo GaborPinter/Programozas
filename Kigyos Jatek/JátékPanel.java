@@ -106,25 +106,25 @@ public class JátékPanel extends JPanel implements ActionListener{
 		}
 	}
 	public void checkCollisions() {
-		//checks if head collides with body
+		
 		for(int i = testrészek;i>0;i--) {
 			if((x[0] == x[i])&& (y[0] == y[i])) {
 				futás = false;
 			}
 		}
-		//check if head touches left border
+		
 		if(x[0] < 0) {
 			futás = false;
 		}
-		//check if head touches right border
+		
 		if(x[0] > szélesség) {
 			futás = false;
 		}
-		//check if head touches top border
+		
 		if(y[0] < 0) {
 			futás = false;
 		}
-		//check if head touches bottom border
+		
 		if(y[0] > magasság) {
 			futás = false;
 		}
@@ -134,12 +134,12 @@ public class JátékPanel extends JPanel implements ActionListener{
 		}
 	}
 	public void gameOver(Graphics g) {
-		//Score
+		
 		g.setColor(Color.black);
 		g.setFont( new Font("Ink Free",Font.BOLD, 40));
 		FontMetrics metrics1 = getFontMetrics(g.getFont());
 		g.drawString("Score: "+megevettAlmák, (szélesség - metrics1.stringWidth("Score: "+megevettAlmák))/2, g.getFont().getSize());
-		//Game Over text
+		
 		g.setColor(Color.black);
 		g.setFont( new Font("Ink Free",Font.BOLD, 75));
 		FontMetrics metrics2 = getFontMetrics(g.getFont());
