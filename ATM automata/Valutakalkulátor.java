@@ -40,6 +40,8 @@ public class Valutakalkulátor {
 		if (maradtösszeg == 0) {
 			System.out.println(Arrays.toString(darabok));
 		}
+		
+		scanner.close();
 
 	}
 }
