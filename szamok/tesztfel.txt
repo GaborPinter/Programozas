@@ -1,0 +1,11 @@
+1 7 Hany szomszedja van Magyarorszagnak?
+2 2 Hanyadik helyen all India az orszagok nepesseg szerinti rangsoraban?
+2 5050 Mennyi az elso 100 szam osszege?
+1 895 Melyik evben kezdodott a Honfoglalas?
+3 6 Melyik a legkisebb tokeletes szam?
+3 9 Hany lakosa volt Magyarorszag legkisebb telepulesenek, Iborfianak, 2012 januar 1-en?
+2 1456 Melyik evben volt a nandorfehervari diadal?
+1 1526 Mikor volt a mohacsi vesz?
+3 40 Hany predikator szerepel Moldova Gyorgy regenyenek cimeben?
+2 17 Hany orszag alkotja az eurozonat (2012-ben)
+A feladatsorra osszesen 20 pont adhato.
