@@ -5,8 +5,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
-*
-**/
+ * Egy élethű számológép megvalósítása amely képes összeadni,kivonni,szorozni és osztani. Ezen felül lehetőség van negatív
+ * szám és tört szám felvitelére is az úgynevezett kijelzőre. A kijelzőn képesek vagyunk az utolsó és az összes számot is 
+ * törölni a megfelelő gombra kattintással akárcsak egy valóságos kézzel fogható számológép esetében. 
+ */
 
 public class Szamologep  implements ActionListener {
 	
