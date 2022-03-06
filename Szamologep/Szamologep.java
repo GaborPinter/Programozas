@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+/**
+*
+**/
+
 public class Szamologep  implements ActionListener {
 	
 	JFrame keret;
