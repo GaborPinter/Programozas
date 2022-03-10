@@ -39,13 +39,6 @@ public class tesztverseny {
 
 		}
 		
-		/* char[] megoldasok = Files.lines(Paths.get("./valaszok.txt"),StandardCharsets.UTF_8).findFirst().get().toCharArray();
-	     List<Válasz> adatok = Files.lines(Paths.get("./valaszok.txt"),StandardCharsets.UTF_8)
-	                              .skip(1)
-	                              .map(k -> k.split(" "))
-	                              .map(k->new Válasz(k[0],k[1].toCharArray()))
-	                              .collect(Collectors.toList());
-		*/
 		/*
 		 * for (Válasz adat : adatok) { System.out.println(adat.toString()); }
 		 */
