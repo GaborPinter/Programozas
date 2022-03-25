@@ -108,14 +108,12 @@ public class Szamologep  implements ActionListener {
 	}
 
 	public static void main(String[] args) {
-		
 		Szamologep szamolas=new Szamologep();
 		
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
 		for(int k=0;k<10;k++) {
 			if(e.getSource()==szamGombok[k]) {
 				szovegMezo.setText(szovegMezo.getText().concat(String.valueOf(k)));
