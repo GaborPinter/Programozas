@@ -45,7 +45,6 @@ public class Palcikak_jatek {
 				jatekosJon = true;
 			}
 		}
-
 		if (palcikak == 1) {
 			if (jatekosJon) {
 				System.out.println("Vesztettel");
@@ -53,6 +52,5 @@ public class Palcikak_jatek {
 				System.out.println("Nyertel");
 			}
 		}
-
 	}
 }
