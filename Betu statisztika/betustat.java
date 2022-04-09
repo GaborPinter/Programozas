@@ -4,7 +4,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 /*
- * Készítsen statisztikát amely összeszámolja hogy a kiválasztott mesében előforduló karakterből hány darab található!
+ * Készítsen statisztikát amely összeszámolja hogy a kiválasztott mesében előforduló karakterekből hány darab található!
  */
 
 public class betuStatisztika {
