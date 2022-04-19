@@ -1,3 +1,9 @@
+/*
+ * Írjunk egy olyan programot amely egy 9x9-es sodoku táblát megold a sodoku szabályainak megfelelő 
+ * módon. Egy adott sorban, oszlopban és 3x3-as négyzetben nem szerepelhet ugyan az a szám kétszer. A 
+ * számok amelyekkel fel kell tölteni a sodoku táblát 1 és 9 közötti számok lehetnek.
+ */
+
 public class Sodoku_megoldo {
 
 	private static final int MERET = 9;
