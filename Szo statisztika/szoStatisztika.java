@@ -2,6 +2,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/*
+ * Írjunk egy olyan programot ami a megadott meséből készít egy szó statisztikát. Ezeket írjuk ki a konzolra olyan módon hogy 
+ * csak azokat a szavakat írjuk ki aminek a hossza nagyobb mint 1 és a mesében előforduló száma a szónak is nagyobb legyen mint
+ * 1. 
+ */
 public class szoStatisztika {
 	public static void main(String[] args) {
 		String mese = """
