@@ -1,4 +1,3 @@
-package hu.ak_akademia.basicgame;
 
 import java.util.Random;
 
@@ -60,8 +59,6 @@ public class Main {
 				}
 			}
 			
-
-			
 			for (Powerup powerup : powerups) {
 			if (powerup.isPresentonlevel() && player.getCoordinates().issameas(powerup.getCoordinates())) {
 				powerup.activate();
@@ -104,6 +101,4 @@ public class Main {
 		System.out.println("----------" + iterationnumber + "----------");
 		Thread.sleep(timeout);
 	}
-
 }
-
