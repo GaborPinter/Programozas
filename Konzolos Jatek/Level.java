@@ -29,8 +29,6 @@ public class Level {
 		} while (!ispassable());
 	}
 
-
-
 	private void initLevelWithSurroundingWalls(int height, int width, int lastrowindex, int lastcolumnindex) {
 		for (int row = 0; row < height; row++) {
 			for (int column = 0; column < width; column++) {
@@ -39,12 +37,9 @@ public class Level {
 				} else {
 					level[row][column] = " ";
 				}
-
 			}
 		}
-	}
-
-	
+	}	
 	
 	public void setPlayer(Player player) {
 		this.player = player;
@@ -54,13 +49,9 @@ public class Level {
 		return player;
 	}
 
-
-
 	public Enemy[] getEnemies() {
 		return enemies;
 	}
-
-
 
 	public void setEnemies(Enemy[] enemies) {
 		this.enemies = enemies;
@@ -70,13 +61,9 @@ public class Level {
 		return powerups;
 	}
 
-	
-
 	public void setPowerups(Powerup[] powerups) {
 		this.powerups = powerups;
 	}
-
-
 
 	public void addrandomwalls() {
 		addrandomwalls(15, 15);
@@ -317,6 +304,4 @@ public class Level {
 			System.out.println("Legalább egy power-up aktiv.");
 		}
 	}
-	
-
 }
