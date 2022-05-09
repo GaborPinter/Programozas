@@ -1,10 +1,9 @@
-package hu.ak_akademia.basicgame.move;
 
-import hu.ak_akademia.basicgame.Coordinates;
-import hu.ak_akademia.basicgame.Direction;
-import hu.ak_akademia.basicgame.entity.Basicentity;
-import hu.ak_akademia.basicgame.entity.MovingEntity;
-import hu.ak_akademia.basicgame.entity.Powerup;
+import Coordinates;
+import Direction;
+import Basicentity;
+import MovingEntity;
+import Powerup;
 
 public class PickUpPowerupMovingStrategy extends AbstractMovingStrategy{
 
