@@ -1,8 +1,7 @@
-package hu.ak_akademia.basicgame.move;
 
-import hu.ak_akademia.basicgame.Direction;
-import hu.ak_akademia.basicgame.Level;
-import hu.ak_akademia.basicgame.entity.MovingEntity;
+import Direction;
+import Level;
+import MovingEntity;
 
 public class EscapeMovingStrategy extends AbstractMovingStrategy{
 
