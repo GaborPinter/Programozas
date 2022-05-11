@@ -1,5 +1,5 @@
 
-import entity.MovingEntity;
+import MovingEntity;
 
 public abstract class AbstractMovingStrategy implements MovingStrategy{
 	
