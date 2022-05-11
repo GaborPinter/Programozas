@@ -1,6 +1,5 @@
-package hu.ak_akademia.basicgame.move;
 
-import hu.ak_akademia.basicgame.entity.MovingEntity;
+import entity.MovingEntity;
 
 public abstract class AbstractMovingStrategy implements MovingStrategy{
 	
