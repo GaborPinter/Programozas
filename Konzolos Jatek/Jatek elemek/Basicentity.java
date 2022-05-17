@@ -1,20 +1,20 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Coordinates;
-import hu.ak_akademia.basicgame.Level;
+
+import basicgame.Coordinates;
+import basicgame.Level;
 
 public abstract class Basicentity implements Entity {
 	protected String mark;
 	protected Coordinates coordinates;
 	protected Level level;
 
-	public Basicentity(String mark, Coordinates coordinates, Level level) { // konstruktor
+	public Basicentity(String mark, Coordinates coordinates, Level level) { 
 		this.mark = mark;
 		this.coordinates = coordinates;
 		this.level = level;
 	}
 
-	public String getMark() { // getterek amivel elerjuk setterek amivel modositani tudjuk,
+	public String getMark() { 
 		return mark;
 	}
 
@@ -38,6 +38,4 @@ public abstract class Basicentity implements Entity {
 		return false;
 	}
 	
-	
-
 }
