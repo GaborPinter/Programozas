@@ -1,10 +1,10 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Coordinates;
-import hu.ak_akademia.basicgame.Direction;
-import hu.ak_akademia.basicgame.Level;
-import hu.ak_akademia.basicgame.move.CatchPlayerMovingStrategy;
-import hu.ak_akademia.basicgame.move.EscapeMovingStrategy;
+
+import basicgame.Coordinates;
+import basicgame.Direction;
+import basicgame.Level;
+import basicgame.move.CatchPlayerMovingStrategy;
+import basicgame.move.EscapeMovingStrategy;
 
 public class Enemy extends MovingEntity{
 	
