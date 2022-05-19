@@ -1,5 +1,4 @@
 
-
 import basicgame.Coordinates;
 import basicgame.Direction;
 import basicgame.Level;
