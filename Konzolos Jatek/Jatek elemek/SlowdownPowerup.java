@@ -1,6 +1,6 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Level;
+
+import basicgame.Level;
 
 public class SlowdownPowerup extends Powerup{
 
@@ -23,7 +23,5 @@ public class SlowdownPowerup extends Powerup{
 			enemy.setSlowed(false);
 		}
 	}
-	
-	
 
 }
