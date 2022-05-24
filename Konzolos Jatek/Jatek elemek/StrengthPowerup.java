@@ -1,6 +1,5 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Level;
+import basicgame.Level;
 
 public class StrengthPowerup extends Powerup{
 
