@@ -1,9 +1,8 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Coordinates;
-import hu.ak_akademia.basicgame.Direction;
-import hu.ak_akademia.basicgame.Level;
-import hu.ak_akademia.basicgame.move.MovingStrategy;
+import basicgame.Coordinates;
+import basicgame.Direction;
+import basicgame.Level;
+import move.MovingStrategy;
 
 public abstract class MovingEntity extends Basicentity {
 	protected Coordinates escapecoordinates;
