@@ -1,7 +1,6 @@
-package hu.ak_akademia.basicgame.entity;
 
-import hu.ak_akademia.basicgame.Coordinates;
-import hu.ak_akademia.basicgame.Level;
+import basicgame.Coordinates;
+import basicgame.Level;
 
 public abstract class Powerup extends Basicentity {
 	private boolean presentonlevel=true;
